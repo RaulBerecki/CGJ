@@ -5824,6 +5824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper
       objectReference: {fileID: 0}
+    - target: {fileID: 7231956033904130772, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8816949050117817370, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

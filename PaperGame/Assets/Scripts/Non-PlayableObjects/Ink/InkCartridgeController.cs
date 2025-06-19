@@ -3,6 +3,12 @@ using UnityEngine;
 public class InkCartridgeController : MonoBehaviour
 {
     public InkManager inkManager;
+
+    private void Start()
+    {
+        inkManager = GameObject.Find("InkManager").GetComponent<InkManager>();
+    }
+
     private void Update()
     {
         if(-3.0f > gameObject.transform.position.x)

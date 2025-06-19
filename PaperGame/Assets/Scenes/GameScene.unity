@@ -4281,6 +4281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1134374892}
+  - component: {fileID: 1134374893}
   m_Layer: 8
   m_Name: Room1Start
   m_TagString: Untagged
@@ -4328,10 +4329,25 @@ Transform:
   - {fileID: 729597049}
   - {fileID: 1988939916}
   - {fileID: 1238724564}
-  - {fileID: 1841764723}
-  - {fileID: 510634908}
   m_Father: {fileID: 1489669367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1134374893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134374891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b3e26c23b83fd418ae1ebe42feee63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endRooms:
+  - {fileID: 6816796338042947176, guid: f44fc06263f1ecf4db20d9d3f36e5067, type: 3}
+  - {fileID: 1990984928112265840, guid: e5c8f10d7ae54f549a83ffec451b97f7, type: 3}
+  - {fileID: 3569061255528242324, guid: af7063d1ab6126a458e2b3dfc07b2227, type: 3}
+  parent: {fileID: 1134374892}
 --- !u!1 &1138623694
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,6 +6133,10 @@ PrefabInstance:
     - target: {fileID: 7231956033904130772, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
       propertyPath: m_Name
       value: Paper
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231956033904130772, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8816949050117817370, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
       propertyPath: m_LocalPosition.x

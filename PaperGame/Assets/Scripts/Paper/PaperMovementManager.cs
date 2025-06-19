@@ -59,6 +59,23 @@ public abstract class PaperMovementManager : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        foreach (ContactPoint2D contact in other.contacts)
+        {
+            Vector2 contactNormal = contact.normal.normalized;
+
+            if (Mathf.Abs(contactNormal.y) > Mathf.Abs(contactNormal.x))
+            {
+                targetY = transform.position.y;
+                isMoving = false;
+                currentSpeed = 0f;
+                break;
+            }
+        }
+    }
+
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 1.0f;

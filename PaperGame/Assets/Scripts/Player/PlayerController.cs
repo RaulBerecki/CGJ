@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RoomManager roomManager;
     [SerializeField] private UserInterfaceManager userInterfaceManager;
     [SerializeField] private InkManager inkManager;
+
+    //Audios
+    bool paperPlaying, windPlaying;
+    [SerializeField] private AudioSource paperAudio, windAudio;
     void Update()
     {
         CheckForDoubleClick();
@@ -38,10 +42,23 @@ public class PlayerController : MonoBehaviour
                 GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = true;
                 swipes++;
             }
+            windPlaying = true;
             OnClickEnd();
         }
+        AudioPlaying();
     }
 
+    private void AudioPlaying()
+    {
+        if(windPlaying) { 
+            if(paperPlaying)
+                paperAudio.Play();
+            else
+                windAudio.Play();
+        }
+        windPlaying=false;
+        paperPlaying=false;
+    }
     private void CheckForDoubleClick()
     {
         if (Input.GetMouseButtonDown(0)) // Left mouse button
@@ -96,6 +113,7 @@ public class PlayerController : MonoBehaviour
 
     public void changePlaneMode()
     {
+        paperPlaying = true;
         GameObject paper = GameObject.Find("Paper");
         PaperMovementManager movementManager = paper.GetComponent<PaperMovementManager>();
 
@@ -115,7 +133,6 @@ public class PlayerController : MonoBehaviour
             GameObject.Find("Canvas/GamePanel/PaperModeButton/PlaneOutline").SetActive(true);
             GameObject.Find("Canvas/GamePanel/PaperModeButton/SheetOutline").SetActive(false);
         }
-
         Destroy(movementManager);
     }
 }

@@ -8,7 +8,7 @@ public class RoomEndController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GameObject end = Instantiate(endRooms[Random.RandomRange(0,endRooms.Count)],new Vector2(transform.position.x+44.7f,3.94f),Quaternion.identity);
+        GameObject end = Instantiate(endRooms[Random.Range(0,endRooms.Count)],new Vector2(transform.position.x+44.7f,3.94f),Quaternion.identity);
         end.transform.parent = parent;
     }
 

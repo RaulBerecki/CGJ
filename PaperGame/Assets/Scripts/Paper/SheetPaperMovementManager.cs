@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class SheetPaperMovementManager : PaperMovementManager
 {
-    [SerializeField] private float movementMultiplier = 1f; // Base scaling
+    [SerializeField] private float movementMultiplier = 0.5f; // Base scaling
+
+    private void Start()
+    {
+        maxTiltAngle = 5f;
+    }
 
     public override void MoveBasedOnInput(float movementAmount, float direction)
     {

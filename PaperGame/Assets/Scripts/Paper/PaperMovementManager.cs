@@ -10,8 +10,16 @@ public abstract class PaperMovementManager : MonoBehaviour
     public float acceleration = 10f;
     public float decelerationDistance = 0.5f;
 
+    protected float maxTiltAngle;
+    private float tiltSpeed = 5f;     // How quickly it tilts
+
     protected virtual void Update()
     {
+        if(Mathf.Abs(0f - gameObject.transform.position.x) < 0.1f)
+        {
+            gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 0f;
+        }
+
         if (isMoving)
         {
             float distance = Mathf.Abs(targetY - transform.position.y);
@@ -21,8 +29,16 @@ public abstract class PaperMovementManager : MonoBehaviour
                 ? Mathf.Lerp(0, maxSpeed, distance / decelerationDistance)
                 : maxSpeed;
 
+            float previousSpeed = currentSpeed;
             currentSpeed = Mathf.MoveTowards(currentSpeed, speedLimit, acceleration * Time.deltaTime);
+            float accelerationDelta = (currentSpeed - previousSpeed) / Time.deltaTime;
+
             transform.Translate(Vector2.up * direction * currentSpeed * Time.deltaTime);
+
+            // --- Tilt Calculation ---
+            float tiltAngle = -Mathf.Clamp(accelerationDelta, -acceleration, acceleration) / acceleration * maxTiltAngle * -direction;
+            Quaternion targetRotation = Quaternion.Euler(0f, 0f, tiltAngle);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * tiltSpeed);
 
             if (distance < 0.01f)
             {
@@ -31,8 +47,17 @@ public abstract class PaperMovementManager : MonoBehaviour
                 currentSpeed = 0f;
             }
         }
+        else
+        {
+            // Smoothly return to upright
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, Time.deltaTime * tiltSpeed);
+        }
     }
 
-    // Abstract method to define how movement amount is scaled
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 1.0f;
+    }
+
     public abstract void MoveBasedOnInput(float movementAmount, float direction);
 }

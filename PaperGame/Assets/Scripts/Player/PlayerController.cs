@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RoomManager roomManager;
     [SerializeField] private UserInterfaceManager userInterfaceManager;
     [SerializeField] private InkManager inkManager;
+    [SerializeField] private BrainManager brainManager;
 
     //Audios
     bool paperPlaying, windPlaying;
@@ -34,6 +35,10 @@ public class PlayerController : MonoBehaviour
                 if(null != inkManager)
                 {
                     inkManager.isPlaying = true;
+                }
+                if(null != brainManager)
+                {
+                    brainManager.isPlaying = true;
                 }
                 if(null != userInterfaceManager)
                 {
@@ -70,6 +75,7 @@ public class PlayerController : MonoBehaviour
                 {
                     roomManager.isPlaying = false;
                     inkManager.isPlaying = false;
+                    brainManager.isPlaying = false;
                     userInterfaceManager.GamePause();
                     GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = false;
                 }
@@ -77,6 +83,7 @@ public class PlayerController : MonoBehaviour
                 {
                     roomManager.isPlaying = true;
                     inkManager.isPlaying = true;
+                    brainManager.isPlaying = true;
                     userInterfaceManager.GameOn();
                     GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = true;
                 }

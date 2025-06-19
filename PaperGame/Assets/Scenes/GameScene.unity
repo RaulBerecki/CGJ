@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 6157799}
   - component: {fileID: 6157798}
   - component: {fileID: 6157800}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49168033}
   - component: {fileID: 49168032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 65512333}
   - component: {fileID: 65512332}
   - component: {fileID: 65512334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 92776050}
   - component: {fileID: 92776049}
   - component: {fileID: 92776048}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (6)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 154171921}
   - component: {fileID: 154171920}
   - component: {fileID: 154171919}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (2)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -953,7 +953,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 167560172}
   - component: {fileID: 167560171}
   - component: {fileID: 167560173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,7 +1255,7 @@ GameObject:
   - component: {fileID: 388407782}
   - component: {fileID: 388407781}
   - component: {fileID: 388407780}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (9)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -1354,7 +1354,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1391,7 +1391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 389018576}
   - component: {fileID: 389018577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1477,7 +1477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419655159}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shredder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 422661635}
   - component: {fileID: 422661634}
   - component: {fileID: 422661633}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (7)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -1621,7 +1621,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1736,7 +1736,7 @@ GameObject:
   - component: {fileID: 510634908}
   - component: {fileID: 510634910}
   - component: {fileID: 510634909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2006,7 +2006,7 @@ GameObject:
   - component: {fileID: 586030494}
   - component: {fileID: 586030493}
   - component: {fileID: 586030492}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (4)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -2105,7 +2105,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2142,7 +2142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606146623}
   - component: {fileID: 606146622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2230,7 +2230,7 @@ GameObject:
   - component: {fileID: 639477348}
   - component: {fileID: 639477347}
   - component: {fileID: 639477349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2365,7 +2365,7 @@ GameObject:
   - component: {fileID: 655111816}
   - component: {fileID: 655111815}
   - component: {fileID: 655111814}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (5)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -2464,7 +2464,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2501,7 +2501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729597049}
   - component: {fileID: 729597048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2590,7 +2590,7 @@ GameObject:
   - component: {fileID: 749080987}
   - component: {fileID: 749080986}
   - component: {fileID: 749080985}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (10)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -2689,7 +2689,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2772,7 +2772,7 @@ GameObject:
   - component: {fileID: 776882980}
   - component: {fileID: 776882981}
   - component: {fileID: 776882982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2964,7 +2964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781663688}
   - component: {fileID: 781663689}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3051,7 +3051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795802865}
   - component: {fileID: 795802866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3140,7 +3140,7 @@ GameObject:
   - component: {fileID: 834406027}
   - component: {fileID: 834406026}
   - component: {fileID: 834406025}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (3)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -3239,7 +3239,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3278,7 +3278,7 @@ GameObject:
   - component: {fileID: 853991466}
   - component: {fileID: 853991465}
   - component: {fileID: 853991464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (8)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -3377,7 +3377,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3414,7 +3414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860965394}
   - component: {fileID: 860965393}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3577,7 +3577,7 @@ GameObject:
   - component: {fileID: 895098564}
   - component: {fileID: 895098565}
   - component: {fileID: 895098566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3787,7 +3787,7 @@ GameObject:
   - component: {fileID: 953292095}
   - component: {fileID: 953292094}
   - component: {fileID: 953292093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -3886,7 +3886,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4195,7 +4195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1028135459}
   - component: {fileID: 1028135458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4281,7 +4281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1134374892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Room1Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4343,7 +4343,7 @@ GameObject:
   - component: {fileID: 1138623696}
   - component: {fileID: 1138623695}
   - component: {fileID: 1138623697}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4612,7 +4612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1234915237}
   - component: {fileID: 1234915236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4699,7 +4699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238724564}
   - component: {fileID: 1238724565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceilling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4767,6 +4767,51 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1266332179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1266332181}
+  - component: {fileID: 1266332180}
+  m_Layer: 0
+  m_Name: BrainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1266332180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266332179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dda0dc8425fcbc45a3c90e2616f57f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlaying: 0
+--- !u!4 &1266332181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266332179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.026880406, y: -0.05519898, z: 0.090876095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1285993980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4777,7 +4822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285993981}
   - component: {fileID: 1285993982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4866,7 +4911,7 @@ GameObject:
   - component: {fileID: 1330564534}
   - component: {fileID: 1330564533}
   - component: {fileID: 1330564532}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShredderTooth (1)
   m_TagString: shredder
   m_Icon: {fileID: 0}
@@ -4965,7 +5010,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2644701395787432716, guid: c89bcc3b14dcb4846b1634e1838af153, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5002,7 +5047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355510421}
   - component: {fileID: 1355510420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5166,7 +5211,7 @@ GameObject:
   - component: {fileID: 1489669367}
   - component: {fileID: 1489669366}
   - component: {fileID: 1489669365}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RoomManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5246,7 +5291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547777050}
   - component: {fileID: 1547777049}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5356,6 +5401,7 @@ MonoBehaviour:
   roomManager: {fileID: 1489669366}
   userInterfaceManager: {fileID: 2091846666}
   inkManager: {fileID: 44064538}
+  brainManager: {fileID: 1266332180}
   paperAudio: {fileID: 350307371}
   windAudio: {fileID: 1871514335}
 --- !u!4 &1564416199
@@ -5522,7 +5568,7 @@ GameObject:
   - component: {fileID: 1612077588}
   - component: {fileID: 1612077587}
   - component: {fileID: 1612077589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5683,7 +5729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621341955}
   - component: {fileID: 1621341954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5849,7 +5895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822518029}
   - component: {fileID: 1822518028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5937,7 +5983,7 @@ GameObject:
   - component: {fileID: 1841764723}
   - component: {fileID: 1841764725}
   - component: {fileID: 1841764724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6068,10 +6114,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4520951721982634661, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7231956033904130772, guid: 1113e5e99bd8c6540a8e5773f6a39c96, type: 3}
       propertyPath: m_Name
       value: Paper
@@ -6396,7 +6438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1988939916}
   - component: {fileID: 1988939917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6747,7 +6789,7 @@ GameObject:
   - component: {fileID: 2024984083}
   - component: {fileID: 2024984084}
   - component: {fileID: 2024984085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6881,7 +6923,7 @@ GameObject:
   - component: {fileID: 2032593712}
   - component: {fileID: 2032593711}
   - component: {fileID: 2032593713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7301,7 +7343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129072051}
   - component: {fileID: 2129072050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7386,6 +7428,7 @@ SceneRoots:
   - {fileID: 1489669367}
   - {fileID: 1564416199}
   - {fileID: 44064539}
+  - {fileID: 1266332181}
   - {fileID: 1157315}
   - {fileID: 1789428076}
   - {fileID: 2091846665}

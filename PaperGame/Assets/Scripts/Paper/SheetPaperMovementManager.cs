@@ -4,8 +4,9 @@ public class SheetPaperMovementManager : PaperMovementManager
 {
     [SerializeField] private float movementMultiplier = 0.5f; // Base scaling
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         maxTiltAngle = 5f;
     }
 

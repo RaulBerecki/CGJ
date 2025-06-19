@@ -13,9 +13,14 @@ public abstract class PaperMovementManager : MonoBehaviour
     protected float maxTiltAngle;
     private float tiltSpeed = 5f;     // How quickly it tilts
 
+    protected virtual void Start()
+    {
+
+    }
+
     protected virtual void Update()
     {
-        if(Mathf.Abs(0f - gameObject.transform.position.x) < 0.1f)
+        if (Mathf.Abs(0f - gameObject.transform.position.x) < 0.1f)
         {
             gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 0f;
         }

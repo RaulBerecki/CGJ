@@ -4,8 +4,9 @@ public class PlanePaperMovementManager : PaperMovementManager
 {
     [SerializeField] private float movementMultiplier = 1.5f; // More responsive
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         maxTiltAngle = 15f;
     }
 

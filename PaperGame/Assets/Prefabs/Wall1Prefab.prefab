@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8880263926711994586}
   - component: {fileID: 5756257414330915928}
+  - component: {fileID: 8431536560750563990}
   m_Layer: 0
   m_Name: Wall1Prefab
   m_TagString: doorAttention
@@ -80,6 +81,24 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 10}
   m_EdgeRadius: 0
+--- !u!114 &8431536560750563990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990984928112265840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061754c4187f84e4fab7d3bbee5200a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sign: {fileID: 6708475241881153825, guid: 90e118a22f38c7a4e8093597e8d530de, type: 3}
+  checkVisibility: {fileID: 7044183659374380130}
+  isDown: 0
+  isUp: 0
+  isMiddle: 1
+  isDeleted: 0
 --- !u!1 &2308885441991114218
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,6 +244,7 @@ GameObject:
   - component: {fileID: 6049691772208615783}
   - component: {fileID: 919347893269296019}
   - component: {fileID: 5639841945336749272}
+  - component: {fileID: 7044183659374380130}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -348,3 +368,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7044183659374380130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868000153541752938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec5febcfac884e42b511d9f1b9e10e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isVisible: 0

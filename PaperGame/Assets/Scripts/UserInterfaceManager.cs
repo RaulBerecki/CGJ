@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class UserInterfaceManager : MonoBehaviour
 {
-    [SerializeField] private GameObject menuPanel, pausePanel, gameOverPanel, gamePanel;
+    [SerializeField] private GameObject menuPanel, pausePanel, gameOverPanel, gamePanel, scorePanel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -10,12 +10,7 @@ public class UserInterfaceManager : MonoBehaviour
         pausePanel.SetActive(false);
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        scorePanel.SetActive(false);
     }
 
     public void GameOn()
@@ -24,6 +19,7 @@ public class UserInterfaceManager : MonoBehaviour
         pausePanel.SetActive(false);
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(true);
+        scorePanel.SetActive(true);
     }
     public void GamePause()
     {
@@ -31,6 +27,7 @@ public class UserInterfaceManager : MonoBehaviour
         pausePanel.SetActive(true);
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(false);
+        scorePanel.SetActive(true);
     }
     public void GameOver()
     {
@@ -38,5 +35,6 @@ public class UserInterfaceManager : MonoBehaviour
         pausePanel.SetActive(false);
         gameOverPanel.SetActive(true);
         gamePanel.SetActive(false);
+        scorePanel.SetActive(false);
     }
 }

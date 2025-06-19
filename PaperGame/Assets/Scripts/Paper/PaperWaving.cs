@@ -7,16 +7,16 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 public class PaperWaving : MonoBehaviour
 {
     private List<Transform> paperSegments = new List<Transform>(); // Segments from top to bottom or left to right
-    private float waveSpeed = 3f;
-    private float waveAmplitude = 5f;
-    private float segmentOffset = 0.025f;
+    //private float waveSpeed = 3f;
+    //private float waveAmplitude = 5f;
+    //private float segmentOffset = 0.025f;
 
-    private float verticalAmplitude = 0.125f; // How much it moves up and down
+    //private float verticalAmplitude = 0.125f; // How much it moves up and down
     private List<Vector3> initialPositions = new List<Vector3>();
 
     private float targetHeight;
     private int hitIndex;
-    private bool isWaving = false;
+    //private bool isWaving = false;
     void Start()
     {
         foreach(Transform child in gameObject.transform)
@@ -54,7 +54,7 @@ public class PaperWaving : MonoBehaviour
 
     public void pushPaper(Transform hitBit)
     {
-        isWaving = false;
+        //isWaving = false;
 
         hitIndex = paperSegments.IndexOf(hitBit);
         targetHeight = paperSegments[hitIndex].gameObject.transform.position.y + 0.2f;        

@@ -34,7 +34,7 @@ public class RoomManager : MonoBehaviour
         {
             if (roomsCreated.Count == 2)
             {
-                GameObject room = Instantiate(rooms[Random.RandomRange(0, rooms.Count)], new Vector2(roomsCreated[1].transform.position.x + roomDistances, roomsCreated[1].transform.position.y), Quaternion.identity);
+                GameObject room = Instantiate(rooms[Random.Range(0, rooms.Count)], new Vector2(roomsCreated[1].transform.position.x + roomDistances, roomsCreated[1].transform.position.y), Quaternion.identity);
                 room.transform.SetParent(this.gameObject.transform);
                 roomsCreated.Add(room);
             }
@@ -42,7 +42,7 @@ public class RoomManager : MonoBehaviour
             {
                 for (int i = 1; i < 3; i++)
                 {
-                    GameObject room = Instantiate(rooms[Random.RandomRange(0, rooms.Count)], new Vector2(roomsCreated[i - 1].transform.position.x + roomDistances, roomsCreated[i - 1].transform.position.y), Quaternion.identity);
+                    GameObject room = Instantiate(rooms[Random.Range(0, rooms.Count)], new Vector2(roomsCreated[i - 1].transform.position.x + roomDistances, roomsCreated[i - 1].transform.position.y), Quaternion.identity);
                     room.transform.SetParent(this.gameObject.transform);
                     roomsCreated.Add(room);
                 }

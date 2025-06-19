@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
                 {
                     userInterfaceManager.GameOn();
                 }
+                GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = true;
                 swipes++;
             }
             OnClickEnd();
@@ -53,12 +54,14 @@ public class PlayerController : MonoBehaviour
                     roomManager.isPlaying = false;
                     inkManager.isPlaying = false;
                     userInterfaceManager.GamePause();
+                    GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = false;
                 }
                 else
                 {
                     roomManager.isPlaying = true;
                     inkManager.isPlaying = true;
                     userInterfaceManager.GameOn();
+                    GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = true;
                 }
             }
             lastClickTime = Time.time;

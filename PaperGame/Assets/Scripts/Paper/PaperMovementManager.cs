@@ -61,6 +61,12 @@ public abstract class PaperMovementManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if(LayerMask.NameToLayer("Shredder") == other.collider.gameObject.layer)
+        {
+            GameObject.Find("UserInterfaceManager").GetComponent<UserInterfaceManager>().GameOver();
+            return;
+        }
+
         foreach (ContactPoint2D contact in other.contacts)
         {
             Vector2 contactNormal = contact.normal.normalized;

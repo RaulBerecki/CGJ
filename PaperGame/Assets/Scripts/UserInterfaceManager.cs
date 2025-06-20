@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UserInterfaceManager : MonoBehaviour
 {
@@ -36,5 +37,12 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(true);
         gamePanel.SetActive(false);
         scorePanel.SetActive(false);
+
+        GameObject.Find("PlayerController").SetActive(false);
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -57,7 +57,12 @@ public class PlayerController : MonoBehaviour
     {
         if(windPlaying) { 
             if(paperPlaying)
-                paperAudio.Play();
+            {
+                if(0 <= GameObject.Find("ScoreManager").GetComponent<ScoreManager>().getBrainValue())
+                {
+                    paperAudio.Play();
+                }    
+            }
             else
                 windAudio.Play();
         }
@@ -124,13 +129,16 @@ public class PlayerController : MonoBehaviour
         GameObject paper = GameObject.Find("Paper");
         PaperMovementManager movementManager = paper.GetComponent<PaperMovementManager>();
 
-        if(movementManager is SheetPaperMovementManager)
+        if(0 < GameObject.Find("ScoreManager").GetComponent<ScoreManager>().getBrainValue() && movementManager is SheetPaperMovementManager)
         {
+            GameObject.Find("ScoreManager").GetComponent<ScoreManager>().decrementBrainValue();
+
             paper.AddComponent<PlanePaperMovementManager>();
             paper.transform.Find("PlanePaper").gameObject.SetActive(true);
             paper.transform.Find("SheetPaper").gameObject.SetActive(false);
             GameObject.Find("Canvas/GamePanel/PaperModeButton/PlaneOutline").SetActive(false);
             GameObject.Find("Canvas/GamePanel/PaperModeButton/SheetOutline").SetActive(true);
+            Destroy(movementManager);
         }
         else if(movementManager is PlanePaperMovementManager)
         {
@@ -139,7 +147,7 @@ public class PlayerController : MonoBehaviour
             paper.transform.Find("SheetPaper").gameObject.SetActive(true);
             GameObject.Find("Canvas/GamePanel/PaperModeButton/PlaneOutline").SetActive(true);
             GameObject.Find("Canvas/GamePanel/PaperModeButton/SheetOutline").SetActive(false);
+            Destroy(movementManager);
         }
-        Destroy(movementManager);
     }
 }

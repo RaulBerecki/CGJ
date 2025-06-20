@@ -60,11 +60,15 @@ public class PlayerController : MonoBehaviour
             {
                 if(0 <= GameObject.Find("ScoreManager").GetComponent<ScoreManager>().getBrainValue())
                 {
+                    paperAudio.pitch = Random.Range(0.8f, 1.2f);
                     paperAudio.Play();
                 }    
             }
             else
+            {
+                windAudio.pitch = Random.Range(0.8f, 1.2f);
                 windAudio.Play();
+            }
         }
         windPlaying=false;
         paperPlaying=false;

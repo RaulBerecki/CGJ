@@ -20,7 +20,7 @@ public class BrainManager : MonoBehaviour
     {
         if (isPlaying)
         {
-            float height = Random.Range(-2.0f, 2.5f);
+            float height = Random.Range(-3.0f, 3.5f);
             GameObject inkCartridge = GameObject.Instantiate(brainPrefab, new Vector2(5.0f, height), Quaternion.identity);
             inkCartridge.GetComponent<BrainController>().brainManager = this;
         }

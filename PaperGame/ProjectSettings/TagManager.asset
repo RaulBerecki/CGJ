@@ -7,6 +7,8 @@ TagManager:
   - shredder
   - doorAttention
   - water
+  - fanTrigger
+  - hood
   layers:
   - Default
   - TransparentFX

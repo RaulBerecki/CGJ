@@ -12,8 +12,19 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(false);
         scorePanel.SetActive(false);
+        GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = false;
         GameObject.Find("Paper").GetComponent<PaperMovementManager>().PauseGravity();
-        GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = false;
+        //GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = false;
+        GameObject sheetPaper = GameObject.Find("Paper/SheetPaper");
+        if (null == sheetPaper)
+        {
+            return;
+        }
+
+        if (sheetPaper.TryGetComponent<PaperWaving>(out PaperWaving paperWaving))
+        {
+            paperWaving.enabled = false;
+        }
     }
 
     public void GameOn()
@@ -23,8 +34,19 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(true);
         scorePanel.SetActive(true);
+        GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = true;
         GameObject.Find("Paper").GetComponent<PaperMovementManager>().ResumeGravity();
-        GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = true;
+        //GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = true;
+        GameObject sheetPaper = GameObject.Find("Paper/SheetPaper");
+        if (null == sheetPaper)
+        {
+            return;
+        }
+
+        if (sheetPaper.TryGetComponent<PaperWaving>(out PaperWaving paperWaving))
+        {
+            paperWaving.enabled = true;
+        }
     }
     public void GamePause()
     {
@@ -33,9 +55,19 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(false);
         scorePanel.SetActive(true);
-
+        GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = false;
         GameObject.Find("Paper").GetComponent<PaperMovementManager>().PauseGravity();
-        GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = false;
+        //GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = false;
+        GameObject sheetPaper = GameObject.Find("Paper/SheetPaper");
+        if(null == sheetPaper)
+        {
+            return;
+        }
+
+        if (sheetPaper.TryGetComponent<PaperWaving>(out PaperWaving paperWaving))
+        {
+            paperWaving.enabled = false;
+        }
     }
     public void GameOver()
     {
@@ -44,11 +76,21 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(true);
         gamePanel.SetActive(false);
         scorePanel.SetActive(false);
-
+        GameObject.Find("ScoreManager").GetComponent<ScoreManager>().isPlaying = false;
         GameObject.Find("PlayerController").SetActive(false);
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = false;
         GameObject.Find("Paper").GetComponent<PaperMovementManager>().PauseGravity();
-        GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = false;
+        //GameObject.Find("Paper/SheetPaper").GetComponent<PaperWaving>().enabled = false;
+        GameObject sheetPaper = GameObject.Find("Paper/SheetPaper");
+        if (null == sheetPaper)
+        {
+            return;
+        }
+
+        if (sheetPaper.TryGetComponent<PaperWaving>(out PaperWaving paperWaving))
+        {
+            paperWaving.enabled = false;
+        }
     }
 
     public void RestartScene()

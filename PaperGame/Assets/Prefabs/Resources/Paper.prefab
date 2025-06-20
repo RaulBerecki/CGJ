@@ -213,6 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2726063343866110292}
   - component: {fileID: 5231312136607320805}
+  - component: {fileID: 902484513130617984}
   m_Layer: 6
   m_Name: SheetPaper
   m_TagString: Untagged
@@ -281,6 +282,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.047849, y: 0.077571325}
   m_EdgeRadius: 0
+--- !u!114 &902484513130617984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675222452089167499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d561ec15d3f19c54db5b3461aad40497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7231956033904130772
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,9 +306,10 @@ GameObject:
   - component: {fileID: 7647633296652206588}
   - component: {fileID: 8782734413138304024}
   - component: {fileID: 4520951721982634661}
+  - component: {fileID: 1806727145719172542}
   m_Layer: 6
   m_Name: Paper
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,6 +358,7 @@ MonoBehaviour:
   maxSpeed: 5
   acceleration: 10
   decelerationDistance: 0.5
+  sprite: {fileID: 1100402057336617863}
   movementMultiplier: 0.2
 --- !u!50 &4520951721982634661
 Rigidbody2D:
@@ -357,7 +372,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -372,3 +387,39 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &1806727145719172542
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231956033904130772}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.03

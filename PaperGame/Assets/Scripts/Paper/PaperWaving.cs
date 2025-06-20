@@ -1,8 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using static UnityEditor.PlayerSettings;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PaperWaving : MonoBehaviour
 {

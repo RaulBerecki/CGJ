@@ -11,7 +11,8 @@ public abstract class PaperMovementManager : MonoBehaviour
     public float decelerationDistance = 0.5f;
 
     protected float maxTiltAngle;
-    private float tiltSpeed = 5f;     // How quickly it tilts
+    private float tiltSpeed = 5f;
+    private bool useGravity = true;
 
     public SpriteRenderer sprite;
     protected virtual void Start()
@@ -59,7 +60,6 @@ public abstract class PaperMovementManager : MonoBehaviour
         }
         else
         {
-            // Smoothly return to upright
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, Time.deltaTime * tiltSpeed);
 
             gameObject.GetComponent<Rigidbody2D>().linearVelocityY = 0f;
@@ -68,10 +68,23 @@ public abstract class PaperMovementManager : MonoBehaviour
                 gentleFallSpeed = 0.5f;
             else
                 gentleFallSpeed = 0.2f;
-            // Tune this value to get desired fall rate
-            transform.Translate(Vector2.down * gentleFallSpeed * Time.deltaTime);
+            if(useGravity)
+            {
+                transform.Translate(Vector2.down * gentleFallSpeed * Time.deltaTime);
+            }
         }
     }
+
+    public void PauseGravity()
+    {
+        useGravity = false;
+    }
+
+    public void ResumeGravity()
+    {
+        useGravity = true;
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("water"))
@@ -80,6 +93,7 @@ public abstract class PaperMovementManager : MonoBehaviour
             sprite.color = new Color32(175, 175, 175, 175);
         }
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (LayerMask.NameToLayer("Shredder") == other.collider.gameObject.layer)

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5489170413755306441}
   - component: {fileID: 3499973568983028997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 2495440873040789342}
   - component: {fileID: 5117120501641702014}
   - component: {fileID: 6511876342097695030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6729308111085335160}
   - component: {fileID: 5916620981486142367}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 6627933753163651813}
   - component: {fileID: 2092286029944900553}
   - component: {fileID: 5792219747450343625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 8032057796139420210}
   - component: {fileID: 8468609518803072013}
   - component: {fileID: 3505560650513279217}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5898284336975425984}
   - component: {fileID: 1550107547269559457}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,7 +692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6811588999137570872}
   - component: {fileID: 4358112202650437857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   - component: {fileID: 7162354419903018605}
   - component: {fileID: 2430044169216119100}
   - component: {fileID: 2571109934901622267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_16 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 4861366464508872832}
   - component: {fileID: 2649271206923819502}
   - component: {fileID: 2570828443927501341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1047,7 +1047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7466766708773976469}
   - component: {fileID: 442546154530025103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 3073263746328623671}
   - component: {fileID: 2392720282197213041}
   - component: {fileID: 6568712746121679470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,7 +1268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4020090883970995810}
   - component: {fileID: 8049804920902593100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1355,7 +1355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5906251570760942006}
   - component: {fileID: 1716804518235620300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1442,7 +1442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3204925960453435564}
   - component: {fileID: 9165099253866773987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1529,7 +1529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5465545617732025360}
   - component: {fileID: 2450651985167449024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,7 +1617,7 @@ GameObject:
   - component: {fileID: 1337601096326474549}
   - component: {fileID: 6636002194150093838}
   - component: {fileID: 954920974142083913}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_9 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1750,7 +1750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4367171685243261340}
   - component: {fileID: 3671477657056591470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1837,7 +1837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3666628102124725135}
   - component: {fileID: 7069984066229134110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1924,7 +1924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4512880275639327109}
   - component: {fileID: 1823769266631095114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5643523523951976091}
   - component: {fileID: 9107753151017775983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2099,7 +2099,7 @@ GameObject:
   - component: {fileID: 2607385149160310623}
   - component: {fileID: 5696759879682398100}
   - component: {fileID: 9070173272844227602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2257,7 +2257,7 @@ GameObject:
   - component: {fileID: 535871958023943591}
   - component: {fileID: 1885883822958941764}
   - component: {fileID: 6258827773009062152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2390,7 +2390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748136574275881841}
   - component: {fileID: 4916398887493240078}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2478,7 +2478,7 @@ GameObject:
   - component: {fileID: 93092043035104332}
   - component: {fileID: 8273751028877190104}
   - component: {fileID: 4156861982543537215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2667,7 +2667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2116677166706350456}
   - component: {fileID: 3934360044971271913}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceilling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2821,7 +2821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8430590202942816694}
   - component: {fileID: 2532076722269700133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2908,7 +2908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6058396054252045784}
   - component: {fileID: 8509685606878447397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}

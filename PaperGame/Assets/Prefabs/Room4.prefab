@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4269330146642693219}
   - component: {fileID: 7607709737808478890}
   - component: {fileID: 5793538803925004260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 5055546551965822580}
   - component: {fileID: 284048945977685177}
   - component: {fileID: 2002244175344857515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4403950671224106293}
   - component: {fileID: 2090680123078137055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 5076083469232330858}
   - component: {fileID: 4944273668789954998}
   - component: {fileID: 4247966540456766338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bedroom_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2701895793591785048}
   - component: {fileID: 3818531534810834466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4037356319835545945}
   - component: {fileID: 4508868404619346122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 291965651016116653}
   - component: {fileID: 7283667242451388393}
   - component: {fileID: 3835093160460359934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2845807636184161840}
   - component: {fileID: 8903285941337820993}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bedroom_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,7 +1142,7 @@ GameObject:
   - component: {fileID: 4409908613018530245}
   - component: {fileID: 3406861552107448308}
   - component: {fileID: 6861311677522754588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,7 +1275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 983396960546130150}
   - component: {fileID: 5453942901946989864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8521131601111942377}
   - component: {fileID: 6416626997173931296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bedroom_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 1688375112981240695}
   - component: {fileID: 7574487694714487691}
   - component: {fileID: 6339984085140993150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1574,7 +1574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8902474059233196272}
   - component: {fileID: 5746061686347345663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1662,7 +1662,7 @@ GameObject:
   - component: {fileID: 5985546446530111704}
   - component: {fileID: 977142251453906616}
   - component: {fileID: 5138980460021757756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1796,7 +1796,7 @@ GameObject:
   - component: {fileID: 4530160057101800241}
   - component: {fileID: 5142561881993531920}
   - component: {fileID: 2429670193762370787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bedroom_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1929,7 +1929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511103310813359733}
   - component: {fileID: 7898075957618457806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2016,7 +2016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031039657771596191}
   - component: {fileID: 2862515034777352935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2104,7 +2104,7 @@ GameObject:
   - component: {fileID: 8209958558697974564}
   - component: {fileID: 4090593485423845509}
   - component: {fileID: 6807231604411491342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357871384459751147}
   - component: {fileID: 2224431258521615057}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceilling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2316,7 +2316,7 @@ GameObject:
   - component: {fileID: 6972209502286465628}
   - component: {fileID: 1849821996672898799}
   - component: {fileID: 5599661837421904613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bedroom_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2449,7 +2449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2842477853756125005}
   - component: {fileID: 4467304057531170093}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 8089124472219780175}
   - component: {fileID: 3715123154898545209}
   - component: {fileID: 7975833326992158267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kids room_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}

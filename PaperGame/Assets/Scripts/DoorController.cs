@@ -6,7 +6,7 @@ public class DoorController : MonoBehaviour
 {
     [SerializeField] private GameObject sign;
     [SerializeField] private CheckVisibility checkVisibility;
-    List<GameObject> signList;
+    public List<GameObject> signList;
     [SerializeField] private bool isDown, isUp, isMiddle,isDeleted;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +30,7 @@ public class DoorController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("trigger");
             if (isUp)
             {
                 GameObject gameObject = Instantiate(sign, new Vector2(2.2f,-2.3f), Quaternion.identity);

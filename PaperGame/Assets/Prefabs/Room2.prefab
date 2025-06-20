@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 135634058168296715}
   - component: {fileID: 7032236794292271648}
   - component: {fileID: 5617624655289953254}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421984031384979967}
   - component: {fileID: 4497787247009377107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 8840287310016113226}
   - component: {fileID: 8953598178926294577}
   - component: {fileID: 3851335823521252153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3046718906199825843}
   - component: {fileID: 772689409387013575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 1225147611542188128}
   - component: {fileID: 1838531003883473081}
   - component: {fileID: 4830765031949568149}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6182055401991223768}
   - component: {fileID: 8571750155236507547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,7 +782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5293254356260186021}
   - component: {fileID: 7183424130292799425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394678469997902806}
   - component: {fileID: 4363051787453142000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 8303161879454565286}
   - component: {fileID: 3713355423344020602}
   - component: {fileID: 4514344251072917879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,7 +1090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637057515406858628}
   - component: {fileID: 5833607212215483936}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 7639924312829454605}
   - component: {fileID: 6050227280320294896}
   - component: {fileID: 2297991757434639693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1312,7 +1312,7 @@ GameObject:
   - component: {fileID: 5567898892557634858}
   - component: {fileID: 5378326934444064308}
   - component: {fileID: 4333979737255463231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 8658002779494506499}
   - component: {fileID: 1286864499843545357}
   - component: {fileID: 8826277456457134142}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1580,7 +1580,7 @@ GameObject:
   - component: {fileID: 8538666208819997459}
   - component: {fileID: 6637912194427081864}
   - component: {fileID: 6946854850065480947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1734,7 +1734,7 @@ GameObject:
   - component: {fileID: 4225988999834608269}
   - component: {fileID: 3548021562782551894}
   - component: {fileID: 8154261550886912979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6197665012260794511}
   - component: {fileID: 352475887974393227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: doors windows_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 1085149333898967669}
   - component: {fileID: 6911444837197520925}
   - component: {fileID: 5710887241277719246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   - component: {fileID: 118088079058677117}
   - component: {fileID: 5634204441551800724}
   - component: {fileID: 4915662208629158325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2222,7 +2222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8238957820549131043}
   - component: {fileID: 8411219408219634925}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: office_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,7 +2310,7 @@ GameObject:
   - component: {fileID: 8881568680638194343}
   - component: {fileID: 3176812556237295643}
   - component: {fileID: 519763594677543625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2444,7 +2444,7 @@ GameObject:
   - component: {fileID: 233663994553769654}
   - component: {fileID: 4576662132188109485}
   - component: {fileID: 5997793046467488712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2578,7 +2578,7 @@ GameObject:
   - component: {fileID: 2679278643238226424}
   - component: {fileID: 8142829607917932441}
   - component: {fileID: 4657874751443421464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_20 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2712,7 +2712,7 @@ GameObject:
   - component: {fileID: 4050723826187256216}
   - component: {fileID: 8199376164600105118}
   - component: {fileID: 4809186013432849444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_20 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2845,7 +2845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6924119490895051171}
   - component: {fileID: 3553731181045914806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2933,7 +2933,7 @@ GameObject:
   - component: {fileID: 5996346103749161653}
   - component: {fileID: 3644449938052802080}
   - component: {fileID: 7841677602316111533}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3066,7 +3066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1307523294809051410}
   - component: {fileID: 7878603792320598939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3153,7 +3153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5471969420584148889}
   - component: {fileID: 3794832728319835243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3241,7 +3241,7 @@ GameObject:
   - component: {fileID: 6265294047281763890}
   - component: {fileID: 5823041252038382828}
   - component: {fileID: 4285518122102467106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3374,7 +3374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6824315055192785378}
   - component: {fileID: 2292361983837785922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3461,7 +3461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341690253398754266}
   - component: {fileID: 8047194235698106433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: living room_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3548,7 +3548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 310038438346814979}
   - component: {fileID: 5172420439946585735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3636,7 +3636,7 @@ GameObject:
   - component: {fileID: 2557152915550111043}
   - component: {fileID: 701593123858391829}
   - component: {fileID: 7490783548745588809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3769,7 +3769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2473580379628631625}
   - component: {fileID: 3859622234554470294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceilling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3848,7 +3848,7 @@ GameObject:
   - component: {fileID: 5843770779201165528}
   - component: {fileID: 8567805623943125230}
   - component: {fileID: 1844508183300927593}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3982,7 +3982,7 @@ GameObject:
   - component: {fileID: 1843496799538232148}
   - component: {fileID: 8960217506786342228}
   - component: {fileID: 72943008057353840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4116,7 +4116,7 @@ GameObject:
   - component: {fileID: 5562641794658123241}
   - component: {fileID: 7530815461309456789}
   - component: {fileID: 7219235195060005226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4284,7 +4284,7 @@ GameObject:
   - component: {fileID: 6025475310591113269}
   - component: {fileID: 6228664236081349923}
   - component: {fileID: 7917910530341329854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kitchen_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}

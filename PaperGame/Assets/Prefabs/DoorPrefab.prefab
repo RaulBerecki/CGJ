@@ -95,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sign: {fileID: 6708475241881153825, guid: 90e118a22f38c7a4e8093597e8d530de, type: 3}
   checkVisibility: {fileID: 2242257953983915412}
+  signList: []
   isDown: 1
   isUp: 0
   isMiddle: 0
@@ -110,7 +111,7 @@ GameObject:
   - component: {fileID: 2321911066536272432}
   - component: {fileID: 7501620433959817390}
   - component: {fileID: 9044231168597724470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +246,7 @@ GameObject:
   - component: {fileID: 1291491956575493794}
   - component: {fileID: 3623720801222679388}
   - component: {fileID: 2242257953983915412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

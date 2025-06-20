@@ -24,6 +24,10 @@ public abstract class PaperMovementManager : MonoBehaviour
         {
             gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 0f;
         }
+        else
+        {
+            gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 1.0f;
+        }
 
         if (isMoving)
         {
@@ -56,6 +60,8 @@ public abstract class PaperMovementManager : MonoBehaviour
         {
             // Smoothly return to upright
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, Time.deltaTime * tiltSpeed);
+
+            gameObject.GetComponent<Rigidbody2D>().linearVelocityY = 0f;
         }
     }
 

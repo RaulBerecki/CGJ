@@ -104,7 +104,8 @@ public class PlayerController : MonoBehaviour
     private void OnClickEnd()
     {
         endPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        applyForce();
+        if(roomManager.isPlaying )
+            applyForce();
     }
 
     private void applyForce()

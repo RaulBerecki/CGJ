@@ -21,6 +21,9 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(true);
         scorePanel.SetActive(true);
+
+        //GameObject.Find("PlayerController").SetActive(true);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = true;
     }
     public void GamePause()
     {
@@ -29,6 +32,9 @@ public class UserInterfaceManager : MonoBehaviour
         gameOverPanel.SetActive(false);
         gamePanel.SetActive(false);
         scorePanel.SetActive(true);
+
+        //GameObject.Find("PlayerController").SetActive(false);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = false;
     }
     public void GameOver()
     {
@@ -39,6 +45,7 @@ public class UserInterfaceManager : MonoBehaviour
         scorePanel.SetActive(false);
 
         GameObject.Find("PlayerController").SetActive(false);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = false;
     }
 
     public void RestartScene()

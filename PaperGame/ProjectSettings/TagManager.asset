@@ -6,6 +6,7 @@ TagManager:
   tags:
   - shredder
   - doorAttention
+  - water
   layers:
   - Default
   - TransparentFX

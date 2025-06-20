@@ -3,7 +3,7 @@ using UnityEngine;
 public abstract class PaperMovementManager : MonoBehaviour
 {
     protected float targetY;
-    protected bool isMoving = false;
+    protected bool isMoving = false,waterTouch=false;
     protected float currentSpeed = 0f;
 
     public float maxSpeed = 5f;
@@ -13,9 +13,10 @@ public abstract class PaperMovementManager : MonoBehaviour
     protected float maxTiltAngle;
     private float tiltSpeed = 5f;     // How quickly it tilts
 
+    public SpriteRenderer sprite;
     protected virtual void Start()
     {
-
+        sprite=gameObject.transform.Find("PlanePaper").GetComponent<SpriteRenderer>();
     }
 
     protected virtual void Update()
@@ -62,12 +63,26 @@ public abstract class PaperMovementManager : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, Time.deltaTime * tiltSpeed);
 
             gameObject.GetComponent<Rigidbody2D>().linearVelocityY = 0f;
+            float gentleFallSpeed;
+            if (waterTouch)
+                gentleFallSpeed = 0.5f;
+            else
+                gentleFallSpeed = 0.2f;
+            // Tune this value to get desired fall rate
+            transform.Translate(Vector2.down * gentleFallSpeed * Time.deltaTime);
         }
     }
-
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("water"))
+        {
+            waterTouch = true;
+            sprite.color = new Color32(175, 175, 175, 175);
+        }
+    }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(LayerMask.NameToLayer("Shredder") == other.collider.gameObject.layer)
+        if (LayerMask.NameToLayer("Shredder") == other.collider.gameObject.layer)
         {
             GameObject.Find("UserInterfaceManager").GetComponent<UserInterfaceManager>().GameOver();
             return;

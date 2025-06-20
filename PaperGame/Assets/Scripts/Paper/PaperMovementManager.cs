@@ -14,6 +14,8 @@ public abstract class PaperMovementManager : MonoBehaviour
     private float tiltSpeed = 5f;
     private bool useGravity = true;
 
+    private Vector2 externalForce = Vector2.zero;
+
     public SpriteRenderer sprite;
     protected virtual void Start()
     {
@@ -28,7 +30,7 @@ public abstract class PaperMovementManager : MonoBehaviour
         }
         else
         {
-            gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 1.0f;
+            gameObject.GetComponent<Rigidbody2D>().linearVelocityX = 1.0f * Mathf.Sign(0f - gameObject.transform.position.x);
         }
 
         if (isMoving)
@@ -63,15 +65,17 @@ public abstract class PaperMovementManager : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.identity, Time.deltaTime * tiltSpeed);
 
             gameObject.GetComponent<Rigidbody2D>().linearVelocityY = 0f;
-            float gentleFallSpeed;
-            if (waterTouch)
-                gentleFallSpeed = 0.5f;
-            else
-                gentleFallSpeed = 0.2f;
+            float gentleFallSpeed = waterTouch ? 2.0f : 0.5f;
+
             if(useGravity)
             {
                 transform.Translate(Vector2.down * gentleFallSpeed * Time.deltaTime);
             }
+        }
+
+        if (externalForce != Vector2.zero)
+        {
+            transform.Translate(externalForce * Time.deltaTime);
         }
     }
 
@@ -91,6 +95,28 @@ public abstract class PaperMovementManager : MonoBehaviour
         {
             waterTouch = true;
             sprite.color = new Color32(175, 175, 175, 175);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("fanTrigger"))
+        {
+            Vector2 direction = (collision.bounds.center - transform.position).normalized;
+            externalForce = -direction * 1.45f;
+        }
+
+        if(collision.gameObject.CompareTag("hood"))
+        {
+            externalForce = Vector2.up * 2.0f;
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("fanTrigger") || collision.gameObject.CompareTag("hood"))
+        {
+            externalForce = Vector2.zero;
         }
     }
 
